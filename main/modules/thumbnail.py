@@ -172,7 +172,7 @@ async def generate_thumbnail(id,file,title,ep_num,size,dur):
     try:
         os.remove(ss)
         if cc != "assets/c4UUTC4DAe.jpg":
-            os.remove(cc)
+            print("lol")
     except:
         pass
     return thumb
